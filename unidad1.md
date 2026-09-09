@@ -1,7 +1,4 @@
-﻿---
-title: "Unidad 1. Introducción a Flutter"
----
-
+﻿
 ![Union europea](./images/union_europea.jpeg)  ![Generalitat](./images/generalitat.jpeg) ![Mare Nostrum](./images/mare_nostrum.png)
 
 <br>
@@ -15,7 +12,7 @@ Flutter representa hoy en día una de las opciones más completas para el desarr
 
 En esta unidad introductoria veremos cómo realizar su instalación, así como las herramientas necesarias para la edición de código y su ejecución en distintos dispositivos.
 
-[*1. Desarrollo multiplataforma y Flutter*](unidad1.md#_apartado1)
+[*1. Desarrollo multiplataforma y Flutter*](unidad1.md#apartado_1)
 
 [*2.	Instalación del SDK Flutter*](unidad1.md#_apartado2)
 
@@ -29,7 +26,9 @@ En esta unidad introductoria veremos cómo realizar su instalación, así como l
 <br>
 <br>
 
-# 1. <a name="_apartado1"></a>Desarrollo multiplataforma y Flutter
+<a id="_apartado1"></a>
+
+# 1. Desarrollo multiplataforma y Flutter
 
 ## ¿Qué entendemos por aplicaciones multiplataforma?
 Cuando hablamos de **aplicaciones multiplataforma** nos referimos a aquellas aplicaciones que son desarrolladas en un único lenguaje de programación y que facilitan su exportación y ejecución -con cambios mínimos- a cualquier dispositivo, de manera independiente al sistema operativo.
@@ -130,12 +129,12 @@ Los principales usos de esta orden serán:
 ![Instalacion](./images/imagen3.png)
 
 
-# 2. <a name="_apartado2"></a>Instalación del SDK Flutter
+# 2. <a id="_apartado2"></a>Instalación del SDK Flutter
 Para realizar la instalación del SDK para Flutter, seguimos las instrucciones de la documentación oficial (<https://docs.flutter.dev/get-started/install>).
 
 <br>
 
-# <a name="_apartado3"></a>3. Instalación y configuración de VSCode
+# <a id="_apartado3"></a>3. Instalación y configuración de VSCode
 
 ## Visual Studio Code
 
@@ -191,7 +190,7 @@ Si ya disponéis de Android Studio instalado y queréis hacer uso del mismo para
 <br>
 <br>
 
-# <a name="_apartado4"></a>4. Emuladores
+# <a id="_apartado4"></a>4. Emuladores
 
 A la hora de probar nuestras aplicaciones Flutter podemos utilizar diferentes dispositivos:
 
@@ -206,7 +205,7 @@ A la hora de probar nuestras aplicaciones Flutter podemos utilizar diferentes di
 <br>
 <br>
 
-# <a name="_apartado5"></a>5. Proyectos con Flutter
+# <a id="_apartado5"></a>5. Proyectos con Flutter
 
 Para crear un nuevo proyecto con Flutter se utiliza el orden *flutter create*, con algunas opciones. Tanto VSCode como Android Studio permiten la creación de proyectos desde su interfaz, como veremos más adelante.
 
