@@ -331,9 +331,10 @@ Vemos algunos detalles a tener en cuenta:
 - Si luego queremos incorporar una nueva plataforma, podemos invocar de nuevo el orden, añadiendo ésta. Por ejemplo:
   
 ```
-$ flutter create --platforms=ios ejemplo_1/
+$ flutter create --platforms=ios ejemplo_1
 
 Recreando ejemplo_1 proyecto...
+
 ```
 
 Creará el proyecto para la plataforma iOS, respetando el resto de código que teníamos en la aplicación.

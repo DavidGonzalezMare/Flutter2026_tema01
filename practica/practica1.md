@@ -21,9 +21,9 @@ Para la evaluación de la tarea se entregarán tres capturas de pantalla con el 
    
 2.	Una captura de pantalla de la herramienta **VSCode**, mostrando las **extensiones** para el desarrollo con Flutter,
 
-3.	Una captura de pantalla del emulador o de la ejecución del programa en un dispositivo Android, que muestre la aplicación de ejemplo del contador, **modificando el texto de la cabecera** 'Flutter Demo Home Page' por un texto con vuestro nombre, por ejemplo 'Tarea 1 de Jose A. Murcia'.
+3.	Una captura de pantalla del emulador o de la ejecución del programa en un dispositivo Android, que muestre la aplicación de ejemplo del contador, **modificando el texto de la cabecera** 'Flutter Demo Home Page' por un texto con vuestro nombre, por ejemplo 'Tarea 1 de David González'.
 
-Consideraciones
+### Consideraciones
 
 1. Si ya disponéis de Android Studio y queréis hacer uso del emulador del mismo, podéis hacerlo, y enviar la captura de pantalla del mismo en lugar de la de Genymotion.
    
@@ -44,5 +44,5 @@ El resultado puede ser algo así:
 ![Ejecucion](./images/imagen3.png)
 
 
-Esta práctica no será necesario entregarla.
+**Esta práctica no será necesario entregarla.**
 
