@@ -40,7 +40,7 @@ Con el fin de minimizar el desarrollo específico en cada plataforma, y el coste
 
 1. **Aplicaciones web responsivas**: Se trata de aplicaciones basadas en tecnología web: HTML, CSS y JavaScript, que adoptan su interfaz a cualquier dispositivo (diseño *responsive*). Estas aplicaciones no requieren de ningún desarrollo nativo, ya que se ejecutan sobre el propio navegador web del sistema. Así pues, disponemos de un código único, pero que no ofrecen una experiencia de usuario tan fluida como las aplicaciones nativas, ni permiten el acceso a todos los componentes del sistema.
    
-2. **Aplicaciones híbridas**: Se trata de aplicaciones web responsivas que se cargan dentro de un componente de tipo *WebView* del sistema, que no es más que un navegador sin la barra de navegación, por lo que presenta la apariencia de una aplicación nativa. Estas aplicaciones, además, también permiten el acceso a través del *WebView* a algunas características del dispositivo, como la ubicación o el acelerómetro. El framework para el desarrollo de aplicaciones híbridas más popular es ***Ionic**, que* permite el desarrollo con otros frameworks web como *React*, *Angular* o *Vue*.
+2. **Aplicaciones híbridas**: Se trata de aplicaciones web responsivas que se cargan dentro de un componente de tipo *WebView* del sistema, que no es más que un navegador sin la barra de navegación, por lo que presenta la apariencia de una aplicación nativa. Estas aplicaciones, además, también permiten el acceso a través del *WebView* a algunas características del dispositivo, como la ubicación o el acelerómetro. El framework para el desarrollo de aplicaciones híbridas más popular es *Ionic*, que permite el desarrollo con otros frameworks web como *React*, *Angular* o *Vue*.
    
 3. **Aplicaciones web progresivas (PWAs)**: Las PWAs siguen siendo aplicaciones web, pero que gracias a determinados componentes, como los *Service Workers* y otras tecnologías están más cerca de las aplicaciones nativas, de manera que permiten sacar mayor potencial de las mismas, accediendo al hardware, trabajar con poca conexión o sin ella, u ofrecer notificaciones del sistema. Existen varios frameworks para el desarrollode PWAs, entre los cuales se encuentran *React PWA Library*, *Angular PWA Framework*, *Vue PWA Framework*, *Ionic PWA Framework*, *Svelte*, *PWA Builder* o *Polymer*.
 
@@ -50,8 +50,7 @@ Un paso más allá en el desarrollo multiplataforma, se encuentran los framework
 
 1. **React Native** y **NativeScript** utilizan JavaScript (o TypeScript) como lenguaje principal y permiten crear interfaces mediante componentes propios del framework. Estos componentes se integran con los controles nativos de cada plataforma, ofreciendo una experiencia cercana a la de una aplicación nativa sin necesidad de utilizar un WebView.
    
-2. **Flutter**: Este framework, **creado y mantenido por Google** permite el desarrollo de aplicaciones multiplataforma mediante el lenguaje *Dart*. Estas aplicaciones son compiladas a código nativo de los diferentes sistemas operativos (Android, iOS, Linux, Windows) e incluso web. Flutter es uno de los principales frameworks utilizados en Fuchsia. Aunque durante años se especuló con que Fuchsia pudiera sustituir a Android, actualmente Google no ha anunciado ningún plan para reemplazar Android por Fuchsia.
-<br>
+2. **Flutter**: Este framework, **creado y mantenido por Google** permite el desarrollo de aplicaciones multiplataforma mediante el lenguaje *Dart*. Estas aplicaciones son compiladas a código nativo de los diferentes sistemas operativos (Android, iOS, Linux, Windows) e incluso web. <br>
 
 ## ¿Qué es Flutter?
 Flutter es un conjunto de herramientas para el desarrollo de software (SDK) y un marco de trabajo (framework) de código abierto creado por Google en 2017 y orientado al desarrollo de aplicaciones multiplataforma, con la idea de obtener, con el mismo código de base, aplicaciones compiladas en código nativo específico de cada plataforma.
@@ -123,13 +122,13 @@ Los principales usos de esta orden serán:
 
 - `flutter create`, `flutter run`, `flutter build` y `flutter clean`: Son algunas de las subórdenes más utilizadas para la gestión de proyectos Flutter. Permiten respectivamente crear proyectos, ejecutar aplicaciones en un dispositivo o emulador, generar versiones para distribución y limpiar los artefactos generados durante la compilación.
   
-- `flutter devices` , `flutter emulators` : Se trata de dos de las herramientas más importantes para la gestión de los dispositivos. Nos muestran los dispositivos y emuladores conectados
+- `flutter devices`, `flutter emulators` : Se trata de dos de las herramientas más importantes para la gestión de los dispositivos. Nos muestran los dispositivos y emuladores conectados
 
 
 ![Instalacion](./images/imagen3.png)
 
 
-# 2. <a id="_apartado2"></a>Instalación del SDK Flutter
+# <a id="_apartado2"></a>2. Instalación del SDK Flutter
 Para realizar la instalación del SDK para Flutter, seguimos las instrucciones de la documentación oficial (<https://docs.flutter.dev/get-started/install>).
 
 <br>
@@ -257,7 +256,7 @@ En los siguientes apartados vamos a ver cómo crear un proyecto con Flutter. En 
 
 ### Paso 1. Creando el proyecto desde VSCode
 
-Para crear un nuevo proyecto Flutter en VScode, abrimos la paleta de órdenes (*Command Palette*) con *Ctrl+Shift+P*, y seleccionamos *Flutter: New Project*:
+Para crear un nuevo proyecto Flutter en VScode, abrimos la paleta de órdenes (Menú *View -> Command Palette*) con *Ctrl+Shift+P*, y seleccionamos *Flutter: New Project*:
 
 ![New project](./images/imagen11.png)
 
@@ -330,12 +329,10 @@ Vemos algunos detalles a tener en cuenta:
 
 - Si luego queremos incorporar una nueva plataforma, podemos invocar de nuevo el orden, añadiendo ésta. Por ejemplo:
   
-```
-$ flutter create --platforms=ios ejemplo_1
+`$ flutter create --platforms=ios ejemplo_1`
 
 Recreando ejemplo_1 proyecto...
 
-```
 
 Creará el proyecto para la plataforma iOS, respetando el resto de código que teníamos en la aplicación.
 
@@ -344,8 +341,8 @@ También podemos hacer uso del punto . como nombre de proyecto para crearlo en e
 Por ejemplo, con:
 
 ```
-$ cd exemple_1
-exemple_1$ flutter create --platforms windows .
+$ cd ejemplo_1
+ejemplo_1$ flutter create --platforms windows .
 Recreando proyecto ....
 ```
 
